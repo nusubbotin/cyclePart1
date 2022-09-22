@@ -37,5 +37,14 @@ public class Main {
         for (int i = 1; i <= 512 ; i = i * 2){
             System.out.println(i);
         }
+
+        //Домашнее задание -3. Задача 1
+        int addSumm = 29000;
+        int accum = 0;
+        System.out.println("Задание 8: ");
+        for (int i = 1; i <= 12 ; i++){
+            accum = accum + addSumm;
+            System.out.println("Месяц "+ i +", сумма накоплений равна "+ accum +" рублей");
+        }
     }
 }
