@@ -27,9 +27,15 @@ public class Main {
         }
 
         //Домашнее задание -2. Задача 2
-        System.out.println("Задание 5: ");
+        System.out.println("Задание 6: ");
         for (int i = 1; i*7 <= 98 ; i++){
             System.out.println(i*7);
+        }
+
+        //Домашнее задание -2. Задача 3
+        System.out.println("Задание 7: ");
+        for (int i = 1; i <= 512 ; i = i * 2){
+            System.out.println(i);
         }
     }
 }
