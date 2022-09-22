@@ -25,5 +25,11 @@ public class Main {
         for (int i = 1904; i <= 2096; i = i + 4){
             System.out.println(i + " год является високосным");
         }
+
+        //Домашнее задание -2. Задача 2
+        System.out.println("Задание 5: ");
+        for (int i = 1; i*7 <= 98 ; i++){
+            System.out.println(i*7);
+        }
     }
 }
