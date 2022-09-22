@@ -4,5 +4,10 @@ public class Main {
         for (int i = 1 ; i < 11 ; i++){
             System.out.println("i = " + i);
         }
+
+        System.out.println("Задание 2: ");
+        for (int i = 10 ; i > 0 ; i--){
+            System.out.println("i = " + i);
+        }
     }
 }
